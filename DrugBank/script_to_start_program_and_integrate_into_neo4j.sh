@@ -13,7 +13,7 @@ echo file preperation
 
 output_file=output_file_preperation.txt
 
-python file_preperation.py "/media/cassandra/Seagate Backup Plus Drive/Promotion/All_databases/Drugbank_database/drugbank_files_without_preperation/" drug_sequences/ external_links/ Protein_identifiers/ structure/ target_sequences/ > $output_file
+python file_preperation.py "data/" drug_sequences/ external_links/ Protein_identifiers/ structure/ target_sequences/ > $output_file
 
 #exit 1
 
