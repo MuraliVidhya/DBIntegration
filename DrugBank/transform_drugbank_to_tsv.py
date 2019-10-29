@@ -19,7 +19,7 @@ import sys
 import requests
 import pandas
 
-xml_file = os.path.join('full database.xml')
+xml_file = os.path.join('data/full database.xml')
 #xml_file = os.path.join('drugbank_all_full_database_dezember.xml/test.xml')
 print (datetime.datetime.utcnow())
 
