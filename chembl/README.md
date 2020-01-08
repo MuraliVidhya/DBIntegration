@@ -1,4 +1,4 @@
-# ChEMBL
+# [ChEMBL](https://github.com/sarvanideekshitula/ChEMBL)
 **Pre-requisites**: 
 
 1. MySQL installed in your local system. 
@@ -7,7 +7,7 @@
 
 **Step-1**: Download the Chembl_24 database and load the dump file into Mysql in your local system.
 
-**Step-2**: Run mytocsv.py file in the terminal 
+**Step-2**: Run mytocsv.py file in the terminal. You can skip the step1 by directly downloading the CSV files from [here](https://drive.google.com/open?id=1NrFi96gQ_8VB8cHya86VxAwtralAA6IN).
 
 (This will create the CSV files with required columns. The required columns list should be in sch.txt file)
 
